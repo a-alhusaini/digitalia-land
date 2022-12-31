@@ -1,8 +1,12 @@
 @import url("https://fonts.cdnfonts.com/css/futura");
 
+p {
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
 .content {
-  max-width: 90vw;
-  margin: 0 auto;
+  margin: 16px auto 0;
 }
 
 h1,

@@ -1,9 +1,8 @@
-import { useState } from "react";
 import "./App.css";
 
 function App() {
   return (
-    <main>
+    <main className="gradient-bg">
       <div className="hero">
         <div className="hero-content-side">
           <div className="center-image-container">
@@ -31,7 +30,22 @@ function App() {
       </div>
       <div className="content">
         <div className="profiles-section">
-          <h1>Our members</h1>
+          <div className="profiles-left-side">
+            <h1>Our Members</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              nam sit, iure vitae modi molestiae, minima quas adipisci nemo
+              explicabo accusantium nulla at rem harum veniam dolores beatae
+              dolorem exercitationem illum illo nihil dignissimos commodi
+              reprehenderit quidem. Recusandae expedita suscipit ducimus
+              corrupti, odit, odio excepturi optio, voluptatibus fugit deleniti
+              beatae.
+            </p>
+            <img
+              className="sample-chat-img"
+              src="https://media.discordapp.net/attachments/1015658588158562355/1058784629072592979/image.png"
+            />
+          </div>
           <div className="profile-grid">
             <div className="profile-card">
               <div className="profile-card-header">
@@ -44,8 +58,6 @@ function App() {
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
                 nihil laborum ab quae, eligendi doloribus ducimus repudiandae
-                porro perspiciatis voluptatibus. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Tenetur, modi?
               </p>
             </div>
             <div className="profile-card">
@@ -59,8 +71,6 @@ function App() {
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
                 praesentium veniam nostrum, voluptatibus porro rerum minima
-                veritatis expedita harum at! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Tenetur, modi?
               </p>
             </div>
             <div className="profile-card">
@@ -74,8 +84,6 @@ function App() {
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
                 assumenda inventore eos eveniet nemo voluptas, accusamus
-                recusandae corrupti necessitatibus dignissimos? Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Tenetur, modi?
               </p>
             </div>
             <div className="profile-card">
@@ -89,26 +97,9 @@ function App() {
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
                 assumenda inventore eos eveniet nemo voluptas, accusamus
-                recusandae corrupti necessitatibus dignissimos? Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Tenetur, modi?
               </p>
             </div>
           </div>
-        </div>
-        <div className="topics">
-          <h2>Some of our chats</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-            nihil.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-            nihil.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-            nihil.
-          </p>
         </div>
       </div>
     </main>

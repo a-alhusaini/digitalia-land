@@ -22,11 +22,6 @@
   font-weight: 600;
 }
 
-.hero-content-side p {
-  font-size: 20px;
-  color: hsl(0, 0%, 70%);
-}
-
 .hero-content-side button {
   font-size: 20px;
   margin-top: 20px;
@@ -52,10 +47,6 @@
   margin: auto;
 }
 
-.profiles-section h1 {
-  text-align: center;
-}
-
 .profile-grid {
   margin-top: 16px;
   display: grid;
@@ -68,7 +59,7 @@
 
 .profile-card {
   max-width: 280px;
-  background-color: hsl(200, 60%, 20%);
+  background-image: linear-gradient(to top right, #666688, #333355);
   padding: 16px;
   margin: auto;
 }
@@ -87,4 +78,37 @@
   grid-template-columns: 1fr 2fr;
   align-items: center;
   gap: 14px;
+}
+
+.profiles-section {
+  display: grid;
+  gap: 16px;
+  padding: 42px auto 42px auto;
+  grid-template-columns: 2fr 1fr;
+}
+
+.profiles-left-side {
+  position: relative;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.topics h1 {
+  text-align: center;
+}
+
+.sample-chat-img {
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.gradient-bg {
+  background-image: linear-gradient(to bottom left, #666688, #333355);
 }
