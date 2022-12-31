@@ -1,6 +1,6 @@
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <main className="gradient-bg">
       <div className="hero">
@@ -105,5 +105,3 @@ function App() {
     </main>
   );
 }
-
-export default App;
