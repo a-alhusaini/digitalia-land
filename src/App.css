@@ -14,6 +14,7 @@
 
 .hero-content-side {
   max-width: 768px;
+  padding: 0 16px;
   margin: 128px auto 0 auto;
 }
 
@@ -90,6 +91,7 @@
 .profiles-left-side {
   position: relative;
   max-width: 768px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
