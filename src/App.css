@@ -114,3 +114,33 @@
 .gradient-bg {
   background-image: linear-gradient(to bottom left, #666688, #333355);
 }
+
+@media only screen and (max-width: 920px) {
+  .hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .hero-image-side {
+    grid-row: 1;
+  }
+  .profiles-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(0, 1fr);
+  }
+
+  .sample-chat-img {
+    position: static;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .center-image-container {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
