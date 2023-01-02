@@ -1,8 +1,10 @@
 import "./App.css";
+import NoNewMembersPopup from "./components/NoNewMembersPopup";
 
 export default function App() {
   return (
     <main className="gradient-bg">
+      <NoNewMembersPopup visible={true} />
       <div className="hero">
         <div className="hero-content-side">
           <div className="center-image-container">
