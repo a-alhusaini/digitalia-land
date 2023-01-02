@@ -15,16 +15,17 @@ export default function App() {
               className="hero-logo"
               src="https://avatars.githubusercontent.com/u/64927540?s=200&v=4"
             />
-            <h1 className="hero-heading">Lorem Ipsum Dolor</h1>
+            <h1 className="hero-heading">Welcome to Digitalia Land!</h1>
           </div>
           <p className="hero-subtext">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rem
-            asperiores veritatis aliquid voluptates natus explicabo quod nostrum
-            ipsum odio adipisci corrupti, doloremque veniam. Ex nobis cumque
-            neque ratione accusamus?
+            Digitalia Land is a Discord community where you get to talk about
+            all things programming. Most of us are avid programmers in
+            JavaScript, Elixir, Rust, C and a bunch of other languages. If it
+            has something to do with programming, we want to talk with you about
+            it!
           </p>
           <button onClick={() => setPopup(true)} className="hero-cta">
-            Join Server
+            lets chat
           </button>
         </div>
         <div className="hero-image-side">
@@ -38,15 +39,10 @@ export default function App() {
       <div className="content">
         <div className="profiles-section">
           <div className="profiles-left-side">
-            <h1>Our Members</h1>
+            <h1>Technobilia</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-              nam sit, iure vitae modi molestiae, minima quas adipisci nemo
-              explicabo accusantium nulla at rem harum veniam dolores beatae
-              dolorem exercitationem illum illo nihil dignissimos commodi
-              reprehenderit quidem. Recusandae expedita suscipit ducimus
-              corrupti, odit, odio excepturi optio, voluptatibus fugit deleniti
-              beatae.
+              Everyone knows about html data attributes but apprently. Some
+              people know more tricks than others...
             </p>
             <img
               className="sample-chat-img"
@@ -60,7 +56,7 @@ export default function App() {
                   className="profile-img"
                   src="https://avatars.githubusercontent.com/u/64927540?s=200&v=4"
                 />
-                <h3>Babashka</h3>
+                <h3>babashka</h3>
               </div>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
@@ -73,7 +69,7 @@ export default function App() {
                   className="profile-img"
                   src="https://avatars.githubusercontent.com/u/64927540?s=200&v=4"
                 />
-                <h3>Babashka</h3>
+                <h3>babashka</h3>
               </div>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
@@ -86,7 +82,7 @@ export default function App() {
                   className="profile-img"
                   src="https://avatars.githubusercontent.com/u/64927540?s=200&v=4"
                 />
-                <h3>Babashka</h3>
+                <h3>babashka</h3>
               </div>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
@@ -99,11 +95,12 @@ export default function App() {
                   className="profile-img"
                   src="https://avatars.githubusercontent.com/u/64927540?s=200&v=4"
                 />
-                <h3>Babashka</h3>
+                <h3>babashka</h3>
               </div>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
-                assumenda inventore eos eveniet nemo voluptas, accusamus
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Accusantium fugiat rem tempore magni dolorem repellendus
+                deserunt ullam minus ipsam voluptatem?
               </p>
             </div>
           </div>
