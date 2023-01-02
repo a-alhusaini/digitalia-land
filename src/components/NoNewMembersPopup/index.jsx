@@ -1,6 +1,6 @@
 import classes from "./index.module.css";
 
-export default function NoNewMembersPopup(visible) {
+export default function NoNewMembersPopup({ visible }) {
   if (visible) {
     return (
       <div className={classes.popupBg}>
