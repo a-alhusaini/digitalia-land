@@ -27,7 +27,9 @@
   font-size: 20px;
   margin-top: 20px;
   border-radius: 12px;
-  font-weight: 600;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 32px;
   background-color: hsl(0, 70%, 50%);
   color: hsl(0, 0%, 90%);
   padding: 12px 20px;
@@ -117,13 +119,21 @@
 
 @media only screen and (max-width: 920px) {
   .hero {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: block;
   }
 
   .hero-image-side {
-    grid-row: 1;
+    order: -1;
+    position: fixed;
+    top: 0;
+    z-index: -1;
   }
+
+  .hero-content-side {
+    padding-top: 32px;
+    margin-top: 30vh;
+  }
+
   .profiles-section {
     grid-template-columns: 1fr;
     grid-template-rows: minmax(0, 1fr);
@@ -142,5 +152,9 @@
   .center-image-container {
     text-align: center;
     margin: 0 auto;
+  }
+
+  .hero-content-side button {
+    width: 100%;
   }
 }
