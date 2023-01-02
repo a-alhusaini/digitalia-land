@@ -1,10 +1,13 @@
 import "./App.css";
 import NoNewMembersPopup from "./components/NoNewMembersPopup";
+import { useState } from "react";
 
 export default function App() {
+  let [popup, setPopup] = useState(false);
+
   return (
     <main className="gradient-bg">
-      <NoNewMembersPopup visible={true} />
+      <NoNewMembersPopup visible={popup} />
       <div className="hero">
         <div className="hero-content-side">
           <div className="center-image-container">
@@ -20,7 +23,9 @@ export default function App() {
             ipsum odio adipisci corrupti, doloremque veniam. Ex nobis cumque
             neque ratione accusamus?
           </p>
-          <button className="hero-cta">Join Server</button>
+          <button onClick={() => setPopup(true)} className="hero-cta">
+            Join Server
+          </button>
         </div>
         <div className="hero-image-side">
           <img

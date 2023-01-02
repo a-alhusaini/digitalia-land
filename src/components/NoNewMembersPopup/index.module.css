@@ -19,3 +19,9 @@
   background-color: hsl(200, 30%, 25%);
   padding: 0 32px;
 }
+
+@media only screen and (max-width: 640px) {
+  .popup {
+    width: 90vw;
+  }
+}
